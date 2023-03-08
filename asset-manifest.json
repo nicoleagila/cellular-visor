@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cellular-visor/static/css/main.125a9623.css",
+    "main.js": "/cellular-visor/static/js/main.18f50221.js",
+    "static/js/787.142d46c3.chunk.js": "/cellular-visor/static/js/787.142d46c3.chunk.js",
+    "index.html": "/cellular-visor/index.html",
+    "main.125a9623.css.map": "/cellular-visor/static/css/main.125a9623.css.map",
+    "main.18f50221.js.map": "/cellular-visor/static/js/main.18f50221.js.map",
+    "787.142d46c3.chunk.js.map": "/cellular-visor/static/js/787.142d46c3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.125a9623.css",
+    "static/js/main.18f50221.js"
+  ]
+}
