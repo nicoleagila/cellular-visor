@@ -1,0 +1,123 @@
+.header{
+  background-color: rgb(233, 233, 233);
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#footer{
+  background-color: rgb(233, 233, 233);
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  gap: 1%;
+}
+
+#h1-header{
+  text-align: center;
+}
+
+.btns{
+  display: flex;
+  gap: 2%;
+  width: 100%;
+  justify-content: center;
+}
+
+.btn{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+  background-color: rgb(15 118 110);
+  border-radius: 0.375rem;
+  cursor: pointer;
+  color: rgb(255 255 255);
+  border: 2px solid rgb(15 118 110);
+}
+
+.btn:hover{
+  background-color: whitesmoke;
+  color: rgb(15 118 110);
+  border: 2px solid rgb(15 118 110);
+}
+
+.btnDisabled{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+  background-color: rgb(134, 160, 158);
+  border-radius: 0.375rem;
+  cursor: pointer;
+  color: rgb(255 255 255);
+  border: none;
+}
+
+.inputBtn{
+  display: none;
+}
+
+#canvasBody{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+}
+
+#toolBar{
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  background-color: rgb(15 118 110);
+  padding: 0.5%;
+  border-radius: 5px;
+}
+
+#canvasWrap{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.toolBarBtn{
+  margin-top: 25%;
+  margin-bottom: 25%;
+  text-align: center;
+  background: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  color: rgb(255 255 255);
+  font-size: large;
+  border: none;
+}
+
+.toolBarBtnSelected{
+  margin-top: 25%;
+  margin-bottom: 25%;
+  text-align: center;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  background-color: whitesmoke;
+  color: rgb(15 118 110);
+  font-size: large;
+  border: none;
+}
+
+.toolBarBtnSelected:hover{
+  background-color: rgb(15 118 110);
+  color: whitesmoke;
+}
+
+.toolBarBtn:hover{
+  background-color: whitesmoke;
+  color: rgb(15 118 110);
+}
